@@ -1,0 +1,19 @@
+.nav-bar{
+    background-color: #6978a0 !important;
+}
+#logo{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#about{
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-left: 40%;
+}
+.content{
+    background-color: #e4dddd;
+}
