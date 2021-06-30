@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.header {
+    background-image: url(home-images/img4.jpeg);
+    background-size: cover;
+    object-position: center;
+    object-fit: cover;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+}
