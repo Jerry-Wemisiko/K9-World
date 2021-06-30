@@ -16,4 +16,19 @@
 }
 .content{
     background-color: #e4dddd;
+    padding: 100px;
+}
+#detail{
+    background-color: #717599;
+    padding: 50px;
+    border-radius: 10px;
+}
+.info{
+    text-align: center;
+}
+#team{
+    background-color: #717599;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 200px;
 }
