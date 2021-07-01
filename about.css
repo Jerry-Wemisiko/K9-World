@@ -1,63 +1,73 @@
 @media only screen and (min-width: 680px) {
     .ftdetails {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-  }
-.nav-bar{
+}
+
+.nav-bar {
     background-color: #6978a0 !important;
 }
-#logo{
-    top:0;
+
+#logo {
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-#about{
+
+#about {
     font-size: x-large;
     font-weight: 700;
     color: black;
     text-align: center;
     margin-left: 40%;
 }
-.content{
+
+.content {
     background-color: #e4dddd;
     padding: 100px;
 }
-.ftdetails{
+
+.ftdetails {
     display: flex;
     flex-direction: row;
-   align-content: space-between;
+    align-content: space-between;
 }
 
 .ftdetails,
 .vs,
 .ex,
-.fl{
+.fl {
     list-style: none;
     text-align: left;
     margin-left: 50px;
 }
+
 #k9,
 #explore,
 #visit,
-#follow{
-    margin-right:20px;
+#follow {
+    margin-right: 20px;
 }
-.ex,.vs,.fl{
+
+.ex,
+.vs,
+.fl {
     border-right: solid 1px black;
-    
+
     padding-right: 50px;
 }
-.footer{
-    background-color:#6978a0 ;
-     padding: 30px;
+
+.footer {
+    background-color: #6978a0;
+    padding: 30px;
     text-align: center;
 }
 
 #flhead,
 #exhead,
-#vshead{
+#vshead {
     margin-left: 80px;
 }
 
