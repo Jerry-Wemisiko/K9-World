@@ -1,0 +1,49 @@
+.nav-bar{
+    background-color: #6978a0 !important;
+}
+#logo{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.ftdetails{
+    display: flex;
+    flex-direction: row;
+   align-content: space-between;
+}
+
+.ftdetails,
+.vs,
+.ex,
+.fl{
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
+}
+#k9,
+#explore,
+#visit,
+#follow{
+    margin-right:20px;
+}
+.ex,.vs,.fl{
+    border-right: solid 1px black;
+    
+    padding-right: 50px;
+}
+.footer{
+    background-color:#6978a0 ;
+     padding: 30px;
+    text-align: center;
+}
+
+#flhead,
+#exhead,
+#vshead{
+    margin-left: 80px;
+}
+.phoneno{
+    display: flex;
+    flex-direction: column;
+}
