@@ -1,49 +1,108 @@
-.nav-bar{
+.nav-bar {
     background-color: #6978a0 !important;
 }
-#logo{
-    top:0;
+
+#logo {
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-.ftdetails{
+
+.ftdetails {
     display: flex;
     flex-direction: row;
-   align-content: space-between;
+    align-content: space-between;
 }
 
 .ftdetails,
 .vs,
 .ex,
-.fl{
+.fl {
     list-style: none;
     text-align: left;
     margin-left: 50px;
 }
+
 #k9,
 #explore,
 #visit,
-#follow{
-    margin-right:20px;
+#follow {
+    margin-right: 20px;
 }
-.ex,.vs,.fl{
+
+.ex,
+.vs,
+.fl {
     border-right: solid 1px black;
-    
+
     padding-right: 50px;
 }
-.footer{
-    background-color:#6978a0 ;
-     padding: 30px;
+
+.footer {
+    background-color: #6978a0;
+    padding: 30px;
     text-align: center;
 }
 
 #flhead,
 #exhead,
-#vshead{
+#vshead {
     margin-left: 80px;
 }
-.phoneno{
+
+.phoneno {
     display: flex;
     flex-direction: column;
+}
+
+#title,
+#booktitle,
+#buytitle {
+    text-align: center;
+}
+
+#bookform,
+#buyform {
+    width: 350px;
+    margin: 20px;
+
+}
+
+.book,
+.buy {
+    border-radius: 10px;
+    border: thin 1px black;
+    background-color: #E4DDDD;
+    margin: 50px;
+}
+
+.forms {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 105px;
+
+}
+
+.back {
+    background-image: url(Images/dog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+#phone,
+#breed,
+#service,
+#age,
+#dType,
+#dAge,
+#cost {
+    border-radius: 8px;
+
 }

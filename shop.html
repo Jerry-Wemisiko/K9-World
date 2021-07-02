@@ -33,100 +33,105 @@
 
         </nav>
     </div>
-
-    <div class="container">
-        <div class="book">
-            <h3 id="booktitle">Book Here</h3>
-            <form id="book-form" action="submit">
-                <div class="phoneno">
-                    <label for="type">Phone Number</label>
-                    <input type="tel">
-                </div>
-
-
-
-                <div class="form-group">
-                    <label for="breed">Dog Breed</label><br>
-                    <select class="form-control" id="breed" required>
-                        <option value="">Select</option>
-                        <option value="German">German Shepherd</option>
-                        <option value="Doberman">Doberman</option>
-                        <option value="Spitz">Japanese Spitz</option>
-                        <option value="">Asian Shepherd</option>
-                        <option value="">Rottweiler</option>
-                        <option value="">Siberian Husky</option>
-                        <option value="">Great Dane</option>
-                        <option value="">Poodle</option>
-                        <option value="">Bulldog</option>
-                        <option value="">Golden Retriver</option>
-                    </select><br>
-                </div>
-
-                <div class="form-group">
-                    <label for="service">Service</label><br>
-                    <select class="form-control" id="service" required>
-                        <option value="">Select</option>
-                        <option value="10000" label="Training ">Training</option>
-                        <option value="Grooming ">Pet Grooming</option>
-                    </select><br>
-
-                </div>
-
-                <div class="form-group">
-                    <label for="age">Dog Age</label>
-                    <select class="form-control" id="age" required><br>
-                        <option value="puppy">Puppy</option>
-                        <option value="adult">Big Dog</option>
-                    </select><br>
-                </div>
-                <button id="btn-book" type="submit">BOOK</button>
-            </form>
+    <div class="back">
+        <div class="container">
+            <h2 id="title">K9-World Book/Buy</h2>
         </div>
 
-        <div class="buy">
-            <h3 id="buytitle" >Buy Here</h3>
-            <form action="">
-                <div class="form-group">
-                    <label for="type" >Dog Type</label><br>
-                    <select class="form-control" id="buy" required><br>
-                        <option value="">Select</option>
-                        <option value="German">German Shepherd</option>
-                        <option value="Doberman">Doberman</option>
-                        <option value="Spitz">Japanese Spitz</option>
-                        <option value="">Asian Shepherd</option>
-                        <option value="">Rottweiler</option>
-                        <option value="">Siberian Husky</option>
-                        <option value="">Great Dane</option>
-                        <option value="">Poodle</option>
-                        <option value="">Bulldog</option>
-                        <option value="">Golden Retriver</option>
-                    </select><br>
-                </div>
+        <div class="container forms">
 
-                <div class="form-group">
-                    <label for="dogAge" >Dog Age</label><br>
-                    <select class="form-control" id="buy" required><br>
-                        <option value="">Select</option>
-                        <option label="Adult">Adult</option>
-                        <option label="Puppy">Puppy</option>
-                    </select><br>
-                </div>
+            <div class="book">
+                <h3 id="booktitle">Book Here</h3>
+                <form id="bookform" action="">
+                    <div class="phoneno">
+                        <label class="tel" for="type">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="price" >Price</label><br>
-                    <select class="form-control" id="buy" required><br>
-                        <option value="">Select</option>
-                        <option value="Adult" value="15,000">Adult</option>
-                        <option label="Puppy" value="8,000">Puppy</option>
-                    </select><br>
-                </div>
-                <button type="submit" id="btn" label="">BUY</button>
-            </form>
+                    <div class="form-group">
+                        <label for="breed">Dog Breed</label><br>
+                        <select class="form-control" id="breed" required>
+                            <option value="">Select</option>
+                            <option value="German">German Shepherd</option>
+                            <option value="Doberman">Doberman</option>
+                            <option value="Spitz">Japanese Spitz</option>
+                            <option value="">Asian Shepherd</option>
+                            <option value="">Rottweiler</option>
+                            <option value="">Siberian Husky</option>
+                            <option value="">Great Dane</option>
+                            <option value="">Poodle</option>
+                            <option value="">Bulldog</option>
+                            <option value="">Golden Retriver</option>
+                        </select><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service</label><br>
+                        <select class="form-control" id="service" required>
+                            <option value="">Select</option>
+                            <option value="10000" label="Training ">Training</option>
+                            <option value="Grooming ">Pet Grooming</option>
+                        </select><br>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Dog Age</label>
+                        <select class="form-control" id="age" required><br>
+                            <option value="puppy">Puppy</option>
+                            <option value="adult">Big Dog</option>
+                        </select><br>
+                    </div>
+                    <button id="btn-book" type="submit">BOOK</button>
+                </form>
+            </div>
+
+            <div class="buy">
+                <h3 id="buytitle">Buy Here</h3>
+                <form id="buyform" action="">
+                    <div class="form-group">
+                        <label for="type">Dog Type</label><br>
+                        <select class="form-control" id="dType" required><br>
+                            <option value="">Select</option>
+                            <option value="German">German Shepherd</option>
+                            <option value="Doberman">Doberman</option>
+                            <option value="Spitz">Japanese Spitz</option>
+                            <option value="">Asian Shepherd</option>
+                            <option value="">Rottweiler</option>
+                            <option value="">Siberian Husky</option>
+                            <option value="">Great Dane</option>
+                            <option value="">Poodle</option>
+                            <option value="">Bulldog</option>
+                            <option value="">Golden Retriver</option>
+                        </select><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dogAge">Dog Age</label><br>
+                        <select class="form-control" id="dAge" required><br>
+                            <option value="">Select</option>
+                            <option label="Adult">Adult</option>
+                            <option label="Puppy">Puppy</option>
+                        </select><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price</label><br>
+                        <select class="form-control" id="cost" required><br>
+                            <option value="">Select</option>
+                            <option value="Adult" value="15,000">Adult</option>
+                            <option label="Puppy" value="8,000">Puppy</option>
+                        </select><br>
+                    </div>
+                    <button onclick="buyForm()" type="submit" id="btn-buy" label="">BUY</button>
+                </form>
+
+            </div>
+
 
         </div>
-
-
     </div>
+
 
     <footer>
         <div class="footer">
@@ -178,8 +183,8 @@
     </div>
     <script src="shop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
